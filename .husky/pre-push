@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+pnpm run build:docs
+
+if [ "$(git status --untracked-files=no --porcelain)" ]; then 
+  git add . && git commit -m "chore: update API docs"
+fi
