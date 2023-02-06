@@ -26,7 +26,13 @@ export type WizardDormitory =
  * @public
  */
 export class Wizard {
+	/**
+	 * The wizard's full name.
+	 */
 	name: string;
+	/**
+	 * The wizard's dormitory.
+	 */
 	dorm: WizardDormitory;
 
 	constructor({
@@ -34,11 +40,11 @@ export class Wizard {
 		dorm,
 	}: {
 		/**
-		 * The full name of the wizard.
+		 * The wizard's full name.
 		 */
 		name: string;
 		/**
-		 * The dormitory where the wizard will stay.
+		 * The wizard's dormitory.
 		 */
 		dorm: WizardDormitory;
 	}) {
