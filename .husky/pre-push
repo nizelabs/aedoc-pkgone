@@ -3,7 +3,7 @@
 
 pnpm run build:docs
 
-if [ "$(git status --untracked-files=no --porcelain)" ]; then 
+if [ "$(git status --porcelain)" ]; then 
   git add . && git commit -m "chore: update API docs"
 	exit 1
 fi
