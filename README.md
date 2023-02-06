@@ -1,0 +1,1 @@
+A demo library to showcase cross repository documentation setup.
