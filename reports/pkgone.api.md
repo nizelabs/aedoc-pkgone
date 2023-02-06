@@ -15,9 +15,7 @@ export class Wizard {
         name: string;
         dorm: WizardDormitory;
     });
-    // (undocumented)
     dorm: WizardDormitory;
-    // (undocumented)
     name: string;
 }
 

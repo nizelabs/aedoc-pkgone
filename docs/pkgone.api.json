@@ -277,7 +277,7 @@
             {
               "kind": "Property",
               "canonicalReference": "pkgone!Wizard#dorm:member",
-              "docComment": "",
+              "docComment": "/**\n * The wizard's dormitory.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -308,7 +308,7 @@
             {
               "kind": "Property",
               "canonicalReference": "pkgone!Wizard#name:member",
-              "docComment": "",
+              "docComment": "/**\n * The wizard's full name.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",

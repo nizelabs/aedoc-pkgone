@@ -4,6 +4,8 @@
 
 ## Wizard.name property
 
+The wizard's full name.
+
 **Signature:**
 
 ```typescript

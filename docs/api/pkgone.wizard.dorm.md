@@ -4,6 +4,8 @@
 
 ## Wizard.dorm property
 
+The wizard's dormitory.
+
 **Signature:**
 
 ```typescript

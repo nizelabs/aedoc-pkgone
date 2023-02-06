@@ -22,6 +22,6 @@ export declare class Wizard
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [dorm](./pkgone.wizard.dorm.md) |  | [WizardDormitory](./pkgone.wizarddormitory.md) |  |
-|  [name](./pkgone.wizard.name.md) |  | string |  |
+|  [dorm](./pkgone.wizard.dorm.md) |  | [WizardDormitory](./pkgone.wizarddormitory.md) | The wizard's dormitory. |
+|  [name](./pkgone.wizard.name.md) |  | string | The wizard's full name. |
 
