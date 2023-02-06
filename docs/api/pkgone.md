@@ -4,7 +4,7 @@
 
 ## pkgone package
 
-A demo lobrary to showcase cross repository documentation setup.
+A demo library to showcase cross repository documentation setup.
 
 ## Remarks
 

@@ -162,7 +162,7 @@
   },
   "kind": "Package",
   "canonicalReference": "pkgone!",
-  "docComment": "/**\n * A demo lobrary to showcase cross repository documentation setup.\n *\n * @remarks\n *\n * Package repository only produce API documentation files in markdown format. If any of the generated files is changed, a Github Workflow will be run to sync the changes into main documentation repository.\n *\n * @packageDocumentation\n */\n",
+  "docComment": "/**\n * A demo library to showcase cross repository documentation setup.\n *\n * @remarks\n *\n * Package repository only produce API documentation files in markdown format. If any of the generated files is changed, a Github Workflow will be run to sync the changes into main documentation repository.\n *\n * @packageDocumentation\n */\n",
   "name": "pkgone",
   "preserveMemberOrder": false,
   "members": [

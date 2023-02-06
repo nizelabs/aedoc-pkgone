@@ -8,5 +8,5 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [pkgone](./pkgone.md) | A demo lobrary to showcase cross repository documentation setup. |
+|  [pkgone](./pkgone.md) | A demo library to showcase cross repository documentation setup. |
 
