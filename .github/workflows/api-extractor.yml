@@ -29,5 +29,5 @@ jobs:
         # if: ${{ steps.changed_docs_files.outputs.any_changed == true || steps.changed_docs_files.outputs.any_deleted == true }}
         run: |
           deno run --allow-env --allow-net --unstable https://raw.githubusercontent.com/nizelabs/aedoc/main/scripts/actions/dispatch-api-sync-workflow.ts \
-            --changed "${{ steps.changed_docs_files.outputs.changed_files }}" --deleted "${{ steps.changed_docs_files.outputs.deleted_files }}" \
+            --changed "${{ steps.changed_docs_files.outputs.all_changed_files }}" --deleted "${{ steps.changed_docs_files.outputs.deleted_files }}" \
             --branch main --pat "${{ secrets.PAT_DOCS }}"
