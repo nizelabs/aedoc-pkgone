@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
       - id: changed_docs_files
         name: Changed Docs Files
-        uses: tj-actions/changed-files@35
+        uses: tj-actions/changed-files@v35
         with:
           files: docs/api/**/*.md
           json: true
