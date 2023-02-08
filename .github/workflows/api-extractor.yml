@@ -7,7 +7,7 @@ on:
       - "docs/api/*.md"
   workflow_dispatch:
 jobs:
-  generate:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - id: checkout
@@ -26,7 +26,7 @@ jobs:
           deno-version: v1.30.x
       - id: sync-changes
         name: Sync Changes to Main Docs Repository
-        if: ${{ steps.changed_docs_files.outputs.any_changed == true || steps.changed_docs_files.outputs.any_deleted == true }}
+        # if: ${{ steps.changed_docs_files.outputs.any_changed == true || steps.changed_docs_files.outputs.any_deleted == true }}
         run: |
           deno run --allow-net https://raw.githubusercontent.com/nizelabs/aedoc/main/scripts/actions/dispatch-api-sync-workflow.ts
             --changed ${{ steps.changed_docs_files.outputs.changed_files }} --deleted ${{ steps.changed_docs_files.outputs.deleted_files }}
